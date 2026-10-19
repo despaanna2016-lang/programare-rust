@@ -55,7 +55,7 @@ fn main() {
             println!("{} bottles of beer on the wall, {} bottles of beer.", sticle, sticle);
             if sticle - 1 == 1 {
                 println!("Take one down and pass it around, 1 bottle of beer on the wall.\n");
-            } else {-
+            } else {
                 println!("Take one down and pass it around, {} bottles of beer on the wall.\n", sticle - 1);
             }
         } else {
