@@ -18,11 +18,11 @@ fn cmmdc(mut a: u32, mut b: u32) -> u32 {
         a = b;
         b = rest;
     }
-    return a;
+    a
 }
 
 fn sunt_coprime(a: u32, b: u32) -> bool {
-    return cmmdc(a, b) == 1;
+    cmmdc(a, b) == 1
 }
 
 fn main() {
